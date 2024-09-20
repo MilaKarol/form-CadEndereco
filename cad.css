@@ -1,0 +1,70 @@
+/* ESPAÇAMENTO ENTRE A BORDA DA PÁGINA */
+form{
+    padding: 30px;
+}
+
+/* IMAGEM DE FUNDO */
+body{
+    background-image: url('./img/');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* BOTÃO ENTRAR */
+.btn-primary:hover {
+    cursor: pointer;
+    transition: .3s;
+    transform: scale(1.2) translateY(-5px);
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgb(254, 211, 255) ;
+    color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0 3px 10px 0 rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.btn-primary {
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 3px 3px 8px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+}
+
+/* ZOOM NOS CAMPOS DO FORM */
+input {
+    border-radius: 0.2rem;
+    border: none 2px;
+    border-color: black;
+    outline: none;
+}
+input:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.02) translateY(-3px);
+}
+
+/* COR DA SELEÇÃO DOS CAMPOS DE SELEÇÃO */
+option:nth-child(1):hover{
+    background-color:rgb(238, 101, 243) ;
+    color: white; 
+}
+option:nth-child(2):hover{
+    background-color:rgb(238, 101, 243) ;
+    color: white;
+}
+option:nth-child(3):hover{
+    background-color: rgb(238, 101, 243) ;
+    color: white;
+}
+option:checked{
+    background-color: rgb(238, 101, 243) ;
+    color: white;
+}
+/* option:nth-child(4):hover{
+    background-color: rgb(238, 101, 243) ;
+    color: white;
+} */
