@@ -17,3 +17,10 @@ const eNumero = (numero) => /^[0-9]+$/.test(numero);
 // lent é uma propriedade que verifica a quantidade de caracteres dentro do argumento cep
 const cepValido = (cep) => cep.length == 8 && eNumero(cep);
 
+// Função para preencher formulario com campos da API
+const preencherFormulario = (endereco) =>{
+    document.getElementById('logradouro').value = endereco.logradouro
+    document.getElementById('localidade').value = endereco.localidade
+    document.getElementById('bairro').value = endereco.bairro
+    document.getElementById('uf').value = endereco.uf
+}
