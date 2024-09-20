@@ -1,4 +1,5 @@
 # Cadastro de Endereço
+
 O código HTML fornecido cria uma página simples de cadastro de endereço, com campos para o usuário preencher dados como CEP, cidade, rua, bairro, estado, número e complemento. 
 
 # Estrutura Básica do Documento HTML
@@ -44,3 +45,4 @@ No final do formulário, há um botão de envio com a tag, <button type="submit"
 
 # Estilização do Background
 O corpo da página possui uma cor de fundo definida como rgb(255, 190, 252), dando à página uma aparência visual personalizada com um tom de rosa claro.
+
