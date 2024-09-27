@@ -53,7 +53,7 @@ O corpo da página possui uma cor de fundo definida como &lt;rgb(255, 190, 252)&
 
 Essa é uma função assíncrona (definida como async), ou seja, ela permite a utilização de promessas (promises), o que é útil para realizar operações que podem demorar um pouco, como acessar APIs.
 
-# limparFormulario() 🧹
+# limparFormulario() 🧹🪣
 
 A função provavelmente limpa os campos de formulário antes de buscar as informações. Essa parte do código não está visível, mas podemos deduzir que apaga qualquer dado que já tenha sido preenchido.
 
