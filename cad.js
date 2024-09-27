@@ -57,6 +57,6 @@ const pesquisarCep = async() =>{
  
 }
 // Adicionar escutador para executar consumo de API da ViaCEP
-document.getElementById("cep").addEventListener("focusout", pesquisarCep); //adicionando escutador de evento
+document.getElementById("cep").addEventListener("focusout", pesquisarCep) //adicionando escutador de evento
  
  
