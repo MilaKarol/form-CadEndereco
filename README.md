@@ -135,9 +135,9 @@ Esse código permite que, ao digitar um CEP e sair do campo, uma busca na API Vi
 
 # Imagem do projeto 🏞️
 
-![](imagem1.png)
+![](img1.png)
 
-![](imagem2.png)
+![](img2.png)
 
 
 # Autores ✒️
