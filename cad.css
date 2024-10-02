@@ -3,14 +3,6 @@ form{
     padding: 30px;
 }
 
-/* IMAGEM DE FUNDO */
-body{
-    background-image: url('./img/');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 /* BOTÃO ENTRAR */
 .btn-primary:hover {
@@ -68,3 +60,12 @@ option:checked{
     background-color: rgb(238, 101, 243) ;
     color: white;
 } */
+#Numero {
+    width: 200px;
+    height: 40px;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+}
