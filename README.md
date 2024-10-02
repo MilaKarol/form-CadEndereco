@@ -140,7 +140,7 @@ Esse código permite que, ao digitar um CEP e sair do campo, uma busca na API Vi
 ![](img2.png)
 
 
-# Autores
+# Autores 🚀
 ```
 https://github.com/MilaKarol
 ```
