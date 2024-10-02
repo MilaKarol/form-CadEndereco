@@ -129,7 +129,7 @@ document.getElementById("cep").addEventListener("focusout", pesquisarCep);
 ```
 Ele dispara a função pesquisarCep quando o usuário sai (dá "focusout") do campo onde digitou o CEP. Assim, ao digitar o CEP e clicar fora do campo, a busca na API é automaticamente iniciada.
 
-# Resumo ✒️
+# Resumo 🚀
 
 Esse código permite que, ao digitar um CEP e sair do campo, uma busca na API ViaCEP seja feita para obter informações do endereço. Ele trata erros de CEP inválido ou não encontrado e atualiza automaticamente o formulário com os dados retornados.
 
@@ -140,7 +140,7 @@ Esse código permite que, ao digitar um CEP e sair do campo, uma busca na API Vi
 ![](img2.png)
 
 
-# Autores 🚀
+# Autores ✒️
 ```
 https://github.com/MilaKarol
 ```
