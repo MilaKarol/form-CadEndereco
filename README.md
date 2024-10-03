@@ -129,6 +129,10 @@ document.getElementById("cep").addEventListener("focusout", pesquisarCep);
 ```
 Ele dispara a função pesquisarCep quando o usuário sai (dá "focusout") do campo onde digitou o CEP. Assim, ao digitar o CEP e clicar fora do campo, a busca na API é automaticamente iniciada.
 
+O &lt;addEventListener&gt; é um método do JavaScript usado para registrar (ou "ouvir") eventos em elementos do DOM, como cliques, teclas pressionadas, mudanças de input, entre outros. Com ele, você pode adicionar uma função para ser executada quando um determinado evento ocorre.
+
+
+
 # Resumo 🚀
 
 Esse código permite que, ao digitar um CEP e sair do campo, uma busca na API ViaCEP seja feita para obter informações do endereço. Ele trata erros de CEP inválido ou não encontrado e atualiza automaticamente o formulário com os dados retornados.
