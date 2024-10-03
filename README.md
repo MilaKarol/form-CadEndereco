@@ -133,7 +133,7 @@ Ele dispara a função pesquisarCep quando o usuário sai (dá "focusout") do ca
 
 Esse código permite que, ao digitar um CEP e sair do campo, uma busca na API ViaCEP seja feita para obter informações do endereço. Ele trata erros de CEP inválido ou não encontrado e atualiza automaticamente o formulário com os dados retornados.
 
-# Imagem do projeto 🏞️
+# Imagens e gif do projeto 🏞️
 
 ![](img1.png)
 
