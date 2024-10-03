@@ -154,6 +154,19 @@ Esse método retorna uma promessa, por isso a necessidade de usar &lt;await&gt; 
 #
 &lt;const addres:&gt; Estamos criando uma constante chamada addres que armazenará o resultado da conversão dos dados JSON para um objeto JavaScript.
 
+#
+&lt;fetch&gt; É uma função JavaScript utilizada para fazer requisições HTTP de forma assíncrona, permitindo buscar dados de uma URL ou enviar dados para um servidor.
+
+#
+
+ &lt;focusout&gt; É um evento em JavaScript que é acionado quando um elemento perde o foco. Ele é comumente usado em campos de formulário (como inputs) para detectar quando o usuário sai do campo (ou quando o foco muda para outro elemento na página).
+
+#
+&lt;JSON&gt; (JavaScript Object Notation) é um formato leve de intercâmbio de dados, muito utilizado para transmitir informações entre um servidor e um cliente em aplicações web.
+Ele é fácil de ler e escrever para humanos, e simples de interpretar e gerar por máquinas.
+
+#
+
 
 # Resumo 🚀
 
@@ -191,3 +204,9 @@ https://github.com/ESChrystian/ESChrystian
 [dados.json()](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
 
 [const addres](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+
+[fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch)
+
+[focusout](https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event)
+
+[JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
