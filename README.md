@@ -136,16 +136,21 @@ Ele dispara a função pesquisarCep quando o usuário sai (dá "focusout") do ca
 O &lt;addEventListener&gt; é um método do JavaScript usado para registrar (ou "ouvir") eventos em elementos do DOM, como cliques, teclas pressionadas, mudanças de input, entre outros.
 Com ele, você pode adicionar uma função para ser executada quando um determinado evento ocorre.
 
+
 &lt;addres:&gt; Esse é o objeto em que você está verificando se existe uma propriedade específica.
+
 
 &lt;hasOwnProperty('erro'):&gt; Esse método verifica se o objeto tem a propriedade "erro" como sua própria propriedade (e não uma propriedade herdada de outro objeto).
 Ele retorna true se a propriedade existir, e false caso contrário.
 
+
 &lt;await:&gt; A palavra-chave await faz com que o JavaScript espere a resolução de uma promessa (promise) antes de continuar a execução do código.
 Ela só pode ser usada dentro de funções &lt;async&gt;. Nesse caso, &lt;await&gt; está esperando que a conversão dos dados para o formato &lt;JSON&gt; seja concluída.
 
+
 &lt;dados.json():&gt; Aqui, dados é uma resposta (do tipo Response) de uma requisição HTTP, como uma requisição feita com &lt;fetch()&gt;. O método &lt;.json()&gt; é uma função que transforma o corpo da resposta (normalmente em formato JSON bruto) em um objeto JavaScript.
 Esse método retorna uma promessa, por isso a necessidade de usar &lt;await&gt; para esperar que a conversão seja concluída.
+
 
 &lt;const addres:&gt; Estamos criando uma constante chamada addres que armazenará o resultado da conversão dos dados JSON para um objeto JavaScript.
 
