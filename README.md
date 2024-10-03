@@ -176,3 +176,18 @@ https://github.com/MilaKarol
 ```
 https://github.com/ESChrystian/ESChrystian
 ```
+
+
+## Referências 🖊️
+
+[addEventListener](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener)
+
+[addres](https://www.w3schools.com/jsreF/dom_obj_address.asp)
+
+[hasOwnProperty](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)
+
+[await](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/await)
+
+[dados.json()](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+
+[const addres](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
