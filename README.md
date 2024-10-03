@@ -131,7 +131,7 @@ Ele dispara a função pesquisarCep quando o usuário sai (dá "focusout") do ca
 
 
 
-# Recursos JavaScript
+# Recursos JavaScript 🛠️
 
 O &lt;addEventListener&gt; é um método do JavaScript usado para registrar (ou "ouvir") eventos em elementos do DOM, como cliques, teclas pressionadas, mudanças de input, entre outros.
 Com ele, você pode adicionar uma função para ser executada quando um determinado evento ocorre.
