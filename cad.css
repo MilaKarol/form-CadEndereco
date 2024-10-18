@@ -100,3 +100,14 @@ div.col-3 {
     flex-direction: column;
     align-items: start;
 }
+
+/* ALINHAMENTO DO CPF E DATA DE NASCIMENTO LADO A LADO */
+.cpf-data {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cpf-data div {
+    flex: 1;
+}
