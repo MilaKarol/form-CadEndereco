@@ -1,8 +1,7 @@
 /* ESPAÇAMENTO ENTRE A BORDA DA PÁGINA */
-form{
+form {
     padding: 30px;
 }
-
 
 /* BOTÃO ENTRAR */
 .btn-primary:hover {
@@ -11,7 +10,7 @@ form{
     transform: scale(1.2) translateY(-5px);
     border-radius: 0.5rem;
     border: none;
-    background-color: rgb(254, 211, 255) ;
+    background-color: rgb(254, 211, 255);
     color: rgb(255, 255, 255);
     -webkit-box-shadow: 0 3px 10px 0 rgb(0, 0, 0);
     text-shadow: 0px 0px 5px rgb(255, 255, 255);
@@ -33,33 +32,37 @@ input {
     border: none 2px;
     border-color: black;
     outline: none;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
 }
+
 input:hover {
     transition: 0.5s ease-in-out;
     transform: scale(1.02) translateY(-3px);
 }
 
 /* COR DA SELEÇÃO DOS CAMPOS DE SELEÇÃO */
-option:nth-child(1):hover{
-    background-color:rgb(238, 101, 243) ;
-    color: white; 
-}
-option:nth-child(2):hover{
-    background-color:rgb(238, 101, 243) ;
+option:nth-child(1):hover {
+    background-color: rgb(238, 101, 243);
     color: white;
 }
-option:nth-child(3):hover{
-    background-color: rgb(238, 101, 243) ;
+
+option:nth-child(2):hover {
+    background-color: rgb(238, 101, 243);
     color: white;
 }
-option:checked{
-    background-color: rgb(238, 101, 243) ;
+
+option:nth-child(3):hover {
+    background-color: rgb(238, 101, 243);
     color: white;
 }
-/* option:nth-child(4):hover{
-    background-color: rgb(238, 101, 243) ;
+
+option:checked {
+    background-color: rgb(238, 101, 243);
     color: white;
-} */
+}
+
 #Numero {
     width: 200px;
     height: 37px;
@@ -69,4 +72,31 @@ option:checked{
 .number {
     display: flex;
     flex-direction: column;
+}
+
+/* FORMATAÇÃO ESPECÍFICA DOS CAMPOS NOVOS */
+
+#nome, #email, #senha, #cpf, #dataNascimento {
+    width: 100%;
+    height: 37px;
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+label.form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+div.col-3 {
+    margin-bottom: 20px;
+}
+
+/* FORMATAÇÃO DA COLUNA */
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
