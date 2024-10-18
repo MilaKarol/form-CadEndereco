@@ -2,6 +2,7 @@
 
 O código HTML fornecido cria uma página simples de cadastro de endereço, com campos para o usuário preencher dados pessoais e de endereço, como nome, sobrenome, e-mail, senha, CPF, data de nascimento, CEP, cidade, rua, bairro, estado, número e complemento. 
 
+
 # Estrutura Básica do Documento HTML 📐
 
 O documento começa com o &lt;!DOCTYPE html&gt;, que informa ao navegador que este é um documento HTML5. 
