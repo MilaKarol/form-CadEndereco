@@ -1,6 +1,6 @@
 # Cadastro de Endereço📍
 
-O código HTML fornecido cria uma página simples de cadastro de endereço, com campos para o usuário preencher dados como CEP, cidade, rua, bairro, estado, número e complemento. 
+O código HTML fornecido cria uma página simples de cadastro de endereço, com campos para o usuário preencher dados pessoais e de endereço, como nome, sobrenome, e-mail, senha, CPF, data de nascimento, CEP, cidade, rua, bairro, estado, número e complemento. 
 
 # Estrutura Básica do Documento HTML 📐
 
@@ -25,20 +25,54 @@ No &lt;head&gt;, além de meta-informações, vemos a importação do Bootstrap,
 
 &lt;script src='cad.js'></script&gt;: Importa um arquivo JavaScript chamado cad.js que, provavelmente, será usado para adicionar interatividade ao formulário, como validações de campos.
 
+&lt;meta charset='utf-8'&gt;: Define o conjunto de caracteres como UTF-8, garantindo que caracteres especiais sejam exibidos corretamente.
+
+&lt;meta http-equiv='X-UA-Compatible' content='IE=edge'&gt;: Garante compatibilidade com o Internet Explorer.
+
+
+&lt;meta name='viewport' content='width=device-width, initial-scale=1'>: Define que a página será responsiva, ajustando-se à largura da tela do dispositivo.
+
 # Estrutura do Formulário 📏
 
-No corpo da página (&lt;body&gt;), o código principal é o formulário que permite o cadastro de endereços. Ele é criado com a tag, 
-&lt;form class="row g-3"&gt; e dentro dessa tag temos diversos campos de input.
+No corpo da página (&lt;body&gt;), o código principal é o formulário que permite o cadastro de endereços e dados pessoais. Ele é criado com a tag &lt;form class="row g-3"&gt; e dentro dessa tag temos diversos campos de input.
 
 <h3&gt; Cadastro de Endereço: Um título simples para o formulário.
 
+
 Campo CEP: Um campo de texto (&lt;input type="text"&gt;) para o usuário inserir o CEP.
+
 
 Campo Cidade: Outro campo de texto para o preenchimento da cidade.
 
+
 Campos Rua, Bairro, Complemento, Estado e Número: Campos de entrada de texto para coletar o endereço completo.
 
+
 Todos os campos estão dentro de uma estrutura, &lt;div class="col-md-6/col-12"&gt; que define o layout responsivo, com o Bootstrap ajustando o tamanho dos campos com base no tamanho da tela do usuário.
+
+
+
+<h3&gt; Seção de Dados Pessoais.
+
+Título do Formulário: &lt;h3&gt;Dados Pessoais&lt;/h3&gt;
+
+
+Campo NOME: Um campo de texto (&lt;input type="text" id="nome" name="nome" placeholder="Nome" required&gt;).
+
+
+Campo SOBRENOME: Um campo de texto para o sobrenome.
+
+
+Campo EMAIL: Um campo de texto para o e-mail.
+
+
+Campo SENHA: Um campo de senha para a criação de uma senha segura.
+
+
+Campo CPF: Um campo de texto para o CPF.
+
+
+Campo DATA DE NASCIMENTO: Um campo de data para a data de nascimento.
 
 
 # Botão de Envio ⌨️
@@ -48,6 +82,20 @@ No final do formulário, há um botão de envio com a tag, &lt;button type="subm
 # Estilização do Backgroun 🫧
 
 O corpo da página possui uma cor de fundo definida como &lt;rgb(255, 190, 252)&gt;, dando à página uma aparência visual personalizada com um tom de rosa claro.
+
+# Estilos Personalizados com CSS 🎨
+
+O arquivo CSS cad.css contém estilos personalizados para aprimorar a aparência do formulário:
+
+Espaçamento: O formulário tem um &lt;padding de 30px&gt;, proporcionando um espaçamento adequado entre a borda da página e os campos.
+
+Botão Entrar: O botão tem efeitos de hover que aumentam seu tamanho e mudam sua cor, melhorando a interatividade do usuário.
+
+Inputs: Campos de entrada possuem bordas arredondadas e efeitos de zoom ao serem destacados. O uso de transition e transform proporciona um feedback visual ao usuário.
+
+Label: Os rótulos dos campos são estilizados para serem negritos e com espaçamento adequado.
+
+Alinhamento do CPF e Data de Nascimento: Uma classe .cpf-data foi criada para alinhar os campos de CPF e Data de Nascimento lado a lado.
 
 # Função pesquisarCep 📬
 
@@ -104,19 +152,6 @@ if(addres.hasOwnProperty('erro')){
 ```
 Se a API retornar um erro (por exemplo, se o CEP não existir), uma mensagem de alerta é mostrada para o usuário.
 
-# Preenchimento do Formulário 📇
-
-Caso não haja erro, a função preencherFormulario(addres) é chamada para preencher o formulário com os dados do endereço retornado pela API. Essa função também não está visível, mas deve preencher campos como "rua", "bairro", etc.
-
-# CEP Inválido 🚫
-
-Se o CEP digitado não for válido, o código cai no else final, exibindo um alerta:
-
-# js
-Copiar código
-```
-alert("Cep incorreto...");
-```
 
 # Evento de Escuta 🔊
 
@@ -128,7 +163,6 @@ Copiar código
 document.getElementById("cep").addEventListener("focusout", pesquisarCep);
 ```
 Ele dispara a função pesquisarCep quando o usuário sai (dá "focusout") do campo onde digitou o CEP. Assim, ao digitar o CEP e clicar fora do campo, a busca na API é automaticamente iniciada.
-
 
 
 # Recursos JavaScript 🛠️
@@ -170,26 +204,13 @@ Ele é fácil de ler e escrever para humanos, e simples de interpretar e gerar p
 
 # Resumo 🚀
 
-Esse código permite que, ao digitar um CEP e sair do campo, uma busca na API ViaCEP seja feita para obter informações do endereço. Ele trata erros de CEP inválido ou não encontrado e atualiza automaticamente o formulário com os dados retornados.
-
-# Imagens e gif do projeto 🏞️
-
-![](img1.png)
-
-![](img2.png)
-
-![](video1.gif)
+Esse código permite que, ao digitar um CEP e sair do campo, uma busca na API ViaCEP seja feita para obter informações do endereço. Ele trata erros de CEP inválido ou não encontrado e atualiza automaticamente o formulário com os dados retornados. Além disso, valida campos obrigatórios e fornece feedback ao usuário em tempo real.
 
 
 # Autores ✒️
 ```
 https://github.com/MilaKarol
 ```
-
-```
-https://github.com/ESChrystian/ESChrystian
-```
-
 
 ## Referências 🖊️
 
